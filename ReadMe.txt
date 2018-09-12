@@ -22,7 +22,7 @@ To use shenMove.sh:
 	You will also need to create a folder titled "rename" to use later.
 	
 		/rename/
-		/ShenCSV/
+		/CSV/
 		shenMove.sh
 	
 	To begin the process of conversion, download the Shenmue Translation Pack as well as the SelfBoot Data Pack (links provided below).
@@ -54,7 +54,7 @@ To use shenMoveAll.sh:
 	Setup is simple. First start by building the same working directory as for the previous script:
 		
 		/rename/
-		/ShenCSV/
+		/CSV/
 		shenMoveAll.sh
 		
 	When you have the folders set up, it's time to start preparing the data, and this is where the difference is. 
