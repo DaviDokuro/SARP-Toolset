@@ -16,6 +16,11 @@ Thank you for choosing PCDC tools for all your Shenmue audio needs. In this Read
 		-rename all packs through comparison algorithm 
 		-generate csv record of changes made
 
+		
+		
+		
+		
+		
 To use shenMove.sh:
 	
 	First, you will need to create a working directory with shenMove.sh file and the "ShenCSV" folder containing the CSV records.
@@ -42,6 +47,9 @@ To use shenMove.sh:
 		sh shenMove.sh Free01
 	
 	Running this code will use the Free01.csv to rename all of the WAV files in the "rename" folder. 
+	
+	
+	
 	
 	
 	
@@ -72,6 +80,9 @@ To use shenMoveAll.sh:
 	You can put as many or as few folders in the rename directory as you want, it will only poll the CSV files associated with the folders in "rename".
 
 
+	
+	
+	
 
 To use pcdc.sh:
 	
@@ -124,6 +135,11 @@ To use pcdc.sh:
 	but will run in O(N Squared) time in the worst case (0% matches)
 	
 	If the script is running for over 4 hours, call your doctor.
+	
+	
+	
+	
+	
 	
 To use pcdcAll.sh:
 
