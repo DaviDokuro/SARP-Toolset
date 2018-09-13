@@ -45,11 +45,11 @@ To use shenMove.sh:
 	After you have converted the .STR files to .WAV, place them in the "rename" folder. 
 	
 	The script takes two arguments, the disk number and the name of the pack you are renaming. 
-	Running the script would look like this, where 01 is the disk number and Free01 is the pack name:
+	Running the script would look like this, where 01 is the disk number and FREE01 is the pack name:
 	
-		sh shenMove.sh 01 Free01
+		sh shenMove.sh 01 FREE01
 	
-	Running this code will use the Free01.csv in the "CSV/01" folder to rename all of the WAV files in the "rename" folder. 
+	Running this code will use the FREE01.csv in the "CSV/01" folder to rename all of the WAV files in the "rename" folder. 
 	
 	
 	
@@ -132,8 +132,8 @@ To use pcdc.sh:
 		sh pcdc.sh
 		
 	The code will take a while to run for larger packs.
-	Converting Free01 takes about half an hour, but it is also one of the largest packs.
-	Most packs contain only 10 files or so, where Free01 contains over 12000.
+	Converting FREE01 takes about half an hour, but it is also one of the largest packs.
+	Most packs contain only 10 files or so, where FREE01 contains over 12000.
 	NOTE: Bash for Windows is much slower and takes about 6-7 hours for this same task. 
 			Msys2 was so slow I couldn't even time it.
 	
