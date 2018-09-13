@@ -21,6 +21,9 @@ Thank you for choosing PCDC tools for all your Shenmue audio needs. In this Read
 		
 		
 		
+		
+		
+		
 To use shenMove.sh:
 	
 	First, you will need to create a working directory with shenMove.sh file and the "CSV" folder containing the CSV records.
@@ -31,8 +34,8 @@ To use shenMove.sh:
 		shenMove.sh
 	
 	To begin the process of conversion, download the Shenmue Translation Pack as well as the SelfBoot Data Pack (links provided below).
-	 Use the SelfBoot Data Pack to extract your GDI dumps of Shenmue, afsutils to extract the .afs archives in scene/01/stream/, and the 
-	ADPCM Streaming Toolkit to convert the .STR files extracted from the .afs archives to .wav files.
+	Use the SelfBoot Data Pack to extract your GDI dumps of Shenmue, afsutils to extract the .afs archives in scene/01/stream/, 
+	and the ADPCM Streaming Toolkit to convert the .STR files extracted from the .afs archives to .wav files.
 	More detailed instructions can be found on the Shenmue Translation Pack website.
   
 	http://shenmuesubs.sourceforge.net/download/addons/Selfboot_DATA_Pack_v1.4_by_FamilyGuy.rar	
@@ -42,11 +45,14 @@ To use shenMove.sh:
 	After you have converted the .STR files to .WAV, place them in the "rename" folder. 
 	
 	The script takes two arguments, the disk number and the name of the pack you are renaming. 
-	Running the script would look like this, where 1 is the disk number and Free01 is the pack name:
+	Running the script would look like this, where 01 is the disk number and Free01 is the pack name:
 	
 		sh shenMove.sh 01 Free01
 	
 	Running this code will use the Free01.csv in the "CSV/01" folder to rename all of the WAV files in the "rename" folder. 
+	
+	
+	
 	
 	
 	
@@ -83,6 +89,9 @@ To use shenMoveAll.sh:
 
 	
 	
+
+	
+	
 	
 
 To use pcdc.sh:
@@ -109,7 +118,7 @@ To use pcdc.sh:
 	
 	To generate the XMA files:
 	
-		# Cupcake will explain when he fully understands
+		# Dewey will explain when he fully understands
 	
 	When your files are ready to go:
 	
@@ -142,7 +151,18 @@ To use pcdc.sh:
 	
 	
 	
+	
+	
+	
 To use pcdcAll.sh:
 
-	TBA
+	If you plan on running this script, I'm sure you can figure it out.
+	If you can't figure it out, then you don't need to.
+	
+	Just a side note, to convert all of disk 1 requires the preparation of ~60k files with this script. 
+	So yea, you don't wanna put yourself through that. 
+	Take the easy way out and check out shenMoveAll instead.
+	You would only need to prepare ~15k files and the runtime will be considerably lower.
+	Please, everyones worried about you. You don't need to do this.
+	
 	
