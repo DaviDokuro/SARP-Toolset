@@ -23,7 +23,7 @@ Thank you for choosing PCDC tools for all your Shenmue audio needs. In this Read
 		
 To use shenMove.sh:
 	
-	First, you will need to create a working directory with shenMove.sh file and the "ShenCSV" folder containing the CSV records.
+	First, you will need to create a working directory with shenMove.sh file and the "CSV" folder containing the CSV records.
 	You will also need to create a folder titled "rename" to use later.
 	
 		/rename/
@@ -41,12 +41,12 @@ To use shenMove.sh:
 
 	After you have converted the .STR files to .WAV, place them in the "rename" folder. 
 	
-	The script takes one argument, the name of the pack you are renaming. 
-	Running the script would look like this, where Free01 is the pack name:
+	The script takes two arguments, the disk number and the name of the pack you are renaming. 
+	Running the script would look like this, where 1 is the disk number and Free01 is the pack name:
 	
-		sh shenMove.sh Free01
+		sh shenMove.sh 1 Free01
 	
-	Running this code will use the Free01.csv to rename all of the WAV files in the "rename" folder. 
+	Running this code will use the Free01.csv in the "CSV/01" folder to rename all of the WAV files in the "rename" folder. 
 	
 	
 	
@@ -56,7 +56,8 @@ To use shenMove.sh:
 To use shenMoveAll.sh:
 
 	shenMoveAll.sh is similar to shenMove.sh in it's operation. 
-	However, rather than giving it any arguments, it will traverse the file tree automatically to rename everything.
+	However, rather than giving it two arguments, you only tell it which disk you are renaming.
+	It will traverse the file tree automatically to rename everything.
 		(This guide assumes you have already converted the Dreamcast .STR files to .WAV as per the instructions above)
 	
 	Setup is simple. First start by building the same working directory as for the previous script:
@@ -66,15 +67,15 @@ To use shenMoveAll.sh:
 		shenMoveAll.sh
 		
 	When you have the folders set up, it's time to start preparing the data, and this is where the difference is. 
-	Instead of dropping the WAV files from one pack directly into the "rename" folder, you will be putting all of the WAVs in "rename" in their respective folders.
+	Instead of dropping the WAV files from one pack directly into the "rename" folder, you will be putting the WAVs in "rename" in their respective folders.
 	The WAVs must be contained directly in folders which retain the original pack name, eg 01BEDA, 01BEDB, 01BUS etc
 
 	Once that is taken care of, simply run shenMoveAll.sh:
 	
-		sh shenMoveAll.sh
-		
+		sh shenMoveAll.sh 1
+	
 	When shenMoveAll.sh runs, it will look at the folder names in the rename directory. 
-	It will then use that folder name to look up the associated CSV.
+	It will then use that folder name to look up the associated CSV for the designated disk.
 	Last, it will use that CSV to rename all of the files in that folder, before moving on to the next folder.
 	
 	You can put as many or as few folders in the rename directory as you want, it will only poll the CSV files associated with the folders in "rename".
