@@ -1,6 +1,6 @@
 echo "Begin Log: $(date '+%Y-%m-%d %H:%M:%S')" >> ./log.txt
-mkdir "./CSV"
-mkdir "./output"
+mkdir -p "./CSV"
+mkdir -p "./output"
 
 # initialize variables
 elapsed=0
@@ -29,7 +29,7 @@ for pacNam in `ls -v $dcpack20`; do
 	
 	paccount=$(($paccount+1))
 	
-	mkdir "./output/$pacNam"
+	mkdir -p "./output/$pacNam"
 	
 	dccount=0
 	
