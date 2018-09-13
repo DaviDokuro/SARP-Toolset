@@ -44,7 +44,7 @@ To use shenMove.sh:
 	The script takes two arguments, the disk number and the name of the pack you are renaming. 
 	Running the script would look like this, where 1 is the disk number and Free01 is the pack name:
 	
-		sh shenMove.sh 1 Free01
+		sh shenMove.sh 01 Free01
 	
 	Running this code will use the Free01.csv in the "CSV/01" folder to rename all of the WAV files in the "rename" folder. 
 	
@@ -70,9 +70,9 @@ To use shenMoveAll.sh:
 	Instead of dropping the WAV files from one pack directly into the "rename" folder, you will be putting the WAVs in "rename" in their respective folders.
 	The WAVs must be contained directly in folders which retain the original pack name, eg 01BEDA, 01BEDB, 01BUS etc
 
-	Once that is taken care of, simply run shenMoveAll.sh:
+	Once that is taken care of, simply run shenMoveAll.sh with the disk number as an argument:
 	
-		sh shenMoveAll.sh 1
+		sh shenMoveAll.sh 01
 	
 	When shenMoveAll.sh runs, it will look at the folder names in the rename directory. 
 	It will then use that folder name to look up the associated CSV for the designated disk.

@@ -11,7 +11,7 @@ for f in $filepath*; do
 	# Progress Stats
 	packcount=$((packcount+1))	
 	csvcount=0
-	csvlines=$(wc -l < ./CSV/0$1/$pacNam.csv)
+	csvlines=$(wc -l < ./CSV/$1/$pacNam.csv)
 	
 	while read p; do
 		csvcount=$((csvcount+1))
@@ -23,7 +23,7 @@ for f in $filepath*; do
 		
 		# Display Progress
 		echo "      Pack: $packcount/$numpacks File: $csvcount/$csvlines $pacNam      \r\c"
-	done <./CSV/0$1/$pacNam.csv
+	done <./CSV/$1/$pacNam.csv
 	
 done
 	
