@@ -1,5 +1,7 @@
 PCDC ReadMe!
 
+Link to release thread: https://www.shenmuedojo.com/forum/index.php?threads/release-shenmue-audio-restoration-project-v0-33.593/	
+
 Thank you for choosing PCDC tools for all your Shenmue audio needs. In this ReadMe, we'll be going over:
 
 	# Using the shenMove.sh script to: 
@@ -15,8 +17,7 @@ Thank you for choosing PCDC tools for all your Shenmue audio needs. In this Read
 	# Using the pcmcAll.sh script to 
 		-rename all packs through comparison algorithm 
 		-generate csv record of changes made
-
-		
+	
 		
 		
 		
