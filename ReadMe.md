@@ -54,6 +54,7 @@ Running this code will use the FREE01.csv in the "CSV/01" folder to rename all o
 shenMoveAll.sh is similar to shenMove.sh in it's operation. 
 However, rather than giving it two arguments, you only tell it which disk you are renaming.
 It will traverse the file tree automatically to rename everything.
+
 	(This guide assumes you have already converted the Dreamcast .STR files to .WAV as per the instructions above)
 
 Setup is simple. First start by building the same working directory as for the previous script:
