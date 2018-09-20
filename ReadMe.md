@@ -128,8 +128,8 @@ First, you will need to procure a copy of xwmaencode.exe.
 We have found that some versions of xwmaencode seem to have an issue where they will export 20k and 48k files with the same file size, which is obviously incorrect.
 If you have this issue, try to find a different binary.
 
-You can use the provided Batch xWMA.cmd script with xwmaencode to convert all of the wav files to xma. 
-Just create an input and output folder and drop all of the wav files in there.
+You can use the provided Batch xWMA.cmd script with xwmaencode.exe to convert all of the .wav files to .xma. 
+Just create an input and output folder and drop all of the wav files into the input folder.
 Most of the xma files in the PC release are 20k, and a few of them are 48k. 
 Very few of them are 36k, so just testing 20k and 48k is enough, the files missed can be done manually.	
 Make sure you keep a copy of the original wav files to use later.
