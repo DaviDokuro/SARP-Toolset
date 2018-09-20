@@ -12,11 +12,11 @@ Thank you for choosing PCDC tools for all your Shenmue audio needs.
 	# Using the shenMoveAll.sh script to: 
 		-rename all packs from CSV records
 	
-	# Using the pcmc.sh script to 
+	# Using the pcdc.sh script to 
 		-rename individual packs through comparison algorithm 
 		-generate csv record of changes made
 
-	# Using the pcmcAll.sh script to 
+	# Using the pcdcAll.sh script to 
 		-rename all packs through comparison algorithm 
 		-generate csv record of changes made
 
