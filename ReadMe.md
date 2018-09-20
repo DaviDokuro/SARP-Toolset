@@ -26,11 +26,13 @@ Thank you for choosing PCDC tools for all your Shenmue audio needs.
 We modified massconv.cmd from the ADPCM toolkit. 
 This version will let you convert multiple packs of .str files to .wav with one script. 
 Just place all of the .srt files in their original folders in the "input" folder, and magically they will appear in the output folder.
+This will be useful to everyone using any of the tools included.
 
 	Batch xWMA.cmd 
 Based on the script for massconv.cmd, we wrote a script to convert to .xma.
 This script requires the xwmaencode exe to be in the same folder with it. 
-It will output .xma files in both 20k and 48k sample rate.
+It will output .xma files in both 20k and 48k sample rates.
+This will only be useful to people using pcdc.sh or pcdcAll.sh.
 
 ### To use shenMove.sh:
 	
