@@ -2,7 +2,9 @@
 
 Link to release thread: https://www.shenmuedojo.com/forum/index.php?threads/release-shenmue-audio-restoration-project-v1-003.593/	
 
-Thank you for choosing PCDC tools for all your Shenmue audio needs. In this ReadMe, we'll be going over:
+Thank you for choosing PCDC tools for all your Shenmue audio needs. 
+
+### In this ReadMe, we'll be going over:
 
 	# Using the shenMove.sh script to: 
 		-rename individual packs from CSV records
@@ -18,7 +20,17 @@ Thank you for choosing PCDC tools for all your Shenmue audio needs. In this Read
 		-rename all packs through comparison algorithm 
 		-generate csv record of changes made
 
+### Bonus Files:
 
+	massconv.cmd
+We modified massconv.cmd from the ADPCM toolkit. 
+This version will let you convert multiple packs of .str files to .wav with one script. 
+Just place all of the .srt files in their original folders in the "input" folder, and magically they will appear in the output folder.
+
+	Batch xWMA.cmd 
+Based on the script for massconv.cmd, we wrote a script to convert to .xma.
+This script requires the xwmaencode exe to be in the same folder with it. 
+It will output .xma files in both 20k and 48k sample rate.
 
 ### To use shenMove.sh:
 	
