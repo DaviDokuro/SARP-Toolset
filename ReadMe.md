@@ -161,7 +161,7 @@ You can use the files left in the "rename" folder to generate new XMA files with
 Repeat until there are only files left in the output folder.
 
 The script runs in O(N) time in the best case (100% file matches)	
-but will run in O(N Squared) time in the worst case (0% matches)
+but will run in O(N<sup>2</sup>) time in the worst case (0% matches)
 
 If the script is running for over 4 hours, call your doctor.
 
