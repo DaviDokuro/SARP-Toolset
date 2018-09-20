@@ -1,4 +1,4 @@
-# PCDC ReadMe!
+# SARP ReadMe!
 
 Link to release thread: https://www.shenmuedojo.com/forum/index.php?threads/release-shenmue-audio-restoration-project-v0-33.593/	
 
