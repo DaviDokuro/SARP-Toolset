@@ -94,6 +94,7 @@ Since we are able to generate identical XMA files, we are able to compare those 
 
 
 First, create a working directory with the following folders:
+
 	/dcname/
 	/pcname/
 	/rename/
