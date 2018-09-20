@@ -34,6 +34,12 @@ This script requires the xwmaencode exe to be in the same folder with it.
 It will output .xma files in both 20k and 48k sample rates.
 This will only be useful to people using pcdc.sh or pcdcAll.sh.
 
+	hashes
+We have compiled CSV's of the hashes for the relevant AFS files. They can be used to match the PC .bin files with the DC .afs files
+
+	CSV
+We have compiled CSV's which identify which files from the DC version match the renamed PC versions of the files. These can be used with shenMove.sh and shenMoveAll.csv to instantly rename all of your .wav files to something the PC version will accept.
+
 ### To use shenMove.sh:
 	
 First, you will need to create a working directory with shenMove.sh file and the "CSV" folder containing the CSV records.
