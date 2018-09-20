@@ -124,7 +124,20 @@ First, create a working directory with the following folders:
 
 To generate the XMA files:
 
-	# Dewey will explain when he fully understands
+First, you will need to procure a copy of xwmaencode.exe. 
+We have found that some versions of xwmaencode seem to have an issue where they will export 20k and 48k files with the same file size, which is obviously incorrect.
+If you have this issue, try to find a different binary.
+
+You can use the provided Batch xWMA.cmd script with xwmaencode to convert all of the wav files to xma. 
+Just create an input and output folder and drop all of the wav files in there.
+Most of the xma files in the PC release are 20k, and a few of them are 48k. 
+Very few of them are 36k, so just testing 20k and 48k is enough, the files missed can be done manually.	
+Make sure you keep a copy of the original wav files to use later.
+
+Honestly, since we made the Batch xWMA.cmd script, pcdcAll is easier and faster to use.
+I need to update the readme there but its basically the same as this one. Just use your head.
+The only difference is pcdcAll will take both 20k and 48k files at once where pcdc will have to do one at a time.
+Also, pcdc only does one pack at a time where pcdcAll will do them all at once.
 
 When your files are ready to go:
 
