@@ -1,6 +1,6 @@
 # SARP ReadMe!
 
-Link to release thread: https://www.shenmuedojo.com/forum/index.php?threads/release-shenmue-audio-restoration-project-v0-33.593/	
+Link to release thread: https://www.shenmuedojo.com/forum/index.php?threads/release-shenmue-audio-restoration-project-v1-003.593/	
 
 Thank you for choosing PCDC tools for all your Shenmue audio needs. In this ReadMe, we'll be going over:
 
