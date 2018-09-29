@@ -61,11 +61,11 @@ http://shenmuesubs.sourceforge.net/download/
 After you have converted the .STR files to .WAV, place them in the "rename" folder. 
 
 The script takes two arguments, the disk number and the name of the pack you are renaming. 
-Running the script would look like this, where 01 is the disk number and FREE01 is the pack name:
+Running the script would look like this, where S1EN1 is the disk number and FREE01 is the pack name:
 
-	sh shenMove.sh 01 FREE01
+	sh shenMove.sh S1EN1 FREE01
 
-Running this code will use the FREE01.csv in the "CSV/01" folder to rename all of the WAV files in the "rename" folder. 
+Running this code will use the FREE01.csv in the "CSV/S1EN1" folder to rename all of the WAV files in the "rename" folder. 
 
 
 
@@ -89,7 +89,7 @@ The WAVs must be contained directly in folders which retain the original pack na
 
 Once that is taken care of, simply run shenMoveAll.sh with the disk number as an argument:
 
-	sh shenMoveAll.sh 01
+	sh shenMoveAll.sh S1EN1
 
 When shenMoveAll.sh runs, it will look at the folder names in the rename directory. 
 It will then use that folder name to look up the associated CSV for the designated disk.
