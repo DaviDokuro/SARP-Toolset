@@ -22,7 +22,7 @@ Thank you for choosing PCDC tools for all your Shenmue audio needs.
 
 ### Bonus Files:
 
-	massconv.cmd
+	massconvAll.cmd
 We modified massconv.cmd from the ADPCM toolkit. 
 This version will let you convert multiple packs of .str files to .wav with one script. 
 Just place all of the .srt files in their original folders in the "input" folder, and magically they will appear in the output folder.
